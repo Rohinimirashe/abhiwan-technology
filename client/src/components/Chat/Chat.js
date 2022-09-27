@@ -32,7 +32,7 @@ const Chat = ({ location }) => {
       if(error) {
         alert(error);
       }
-    });
+    });git  
   }, [ENDPOINT, location.search]);
   
   useEffect(() => {
